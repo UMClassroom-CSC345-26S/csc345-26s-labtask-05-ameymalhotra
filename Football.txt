@@ -1,0 +1,37 @@
+CFPNC_2026 instance FootballUS
+FootballUS subclass TeamSport
+TeamSport subclass Sport
+Sport subclass Physical
+Physical subclass Entity
+
+Miami_Hurricanes instance SportsTeam
+SportsTeam subclass Organization
+Organization subclass Agent
+Agent subclass Entity
+
+Indiana_Hoosiers instance SportsTeam
+
+20_January_2026 instance Day
+Day subclass TimeInterval
+TimeInterval subclass Abstract
+Abstract subclass Entity
+
+27 instance NonnegativeInteger
+21 instance NonnegativeInteger
+NonnegativeInteger subclass Integer
+Integer subclass Number
+Number subclass Quantity
+Quantity subclass Abstract
+
+Carson_Beck instance Man
+Man subclass Human
+Human subclass CognitiveAgent
+CognitiveAgent subclass Agent
+
+Miami_Hurricanes lost CFPNC_2026
+Indiana_Hoosiers won CFPNC_2026
+20_January_2026 is_date CFPNC_2026
+27 winning_score CFPNC_2026
+21 losing_score CFPNC_2026
+Carson_Beck contestParticipant CFPNC_2026
+Carson_Beck member Miami_Hurricanes
